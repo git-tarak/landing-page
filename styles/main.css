@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2932;
+  color: white;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  /* border: 1px solid rgb(219, 11, 11); */
+  justify-content: space-around;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: 900;
+  padding: 4px 10px;
+  margin-left: 40px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+}
+
+a{
+  flex: 1;
+  color: wheat;
+  text-decoration: none;
+  margin: 0 18px;
+  font-size: 18px;
+}
+
+#intro {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin: 4%;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+button {
+  width: max-content;
+  margin: 0 ;
+  padding: 4px 18px;
+  font-size: 18px;
+  color: whitesmoke;
+  background-color: rgb(61, 96, 251);
+  border: 2px solid rgb(19, 100, 231);
+  border-radius: 10px;
+}
+#intro img {
+  width: 33%;
+  height: auto;
+  margin: 4%;
+  border: 2px dotted lightgreen;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+
+h2 {
+  margin: 12px auto;
+  font-size: 26px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  border: 2px dotted limegreen;
+  border-radius: 5%;
+  margin: 0 auto;
+}
+
+.para {
+  padding: 14px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  /* height: 100px; */
+  align-items: center;
+  background-color: rgb(190, 129, 251);
+}
+
+blockquote {
+  width: 48%;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 2;
+  margin: 20px auto;
+}
+
+#quote strong {
+  width: 30%;
+  font-style: oblique;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+#add-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.adds {
+  width: 60%;
+  margin: 30px auto;
+  background-color: rosybrown;
+  padding: 2%;
+}
+
+.adds button {
+  margin:0 auto;
+}
+
+footer {
+  background-color: #1f2932;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+footer small {
+  width: max-content;
+  display: inline-block;
+  margin: 0 auto;
+}
